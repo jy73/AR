@@ -141,7 +141,7 @@ struct ARViewContainer: UIViewRepresentable {
             rimL.scale.z = jawVal * 2 + 1.0
             rimR.scale.z = jawVal * 2 + 1.0
             
-            rimLModel.model?.materials = [SimpleMaterial.init(color: .init(red: CGFloat(min(smileLVal, smileRVal)) + 0.25, green: 0.0, blue: 0.0, alpha: 1), isMetallic: true)]
+            rimLModel.model?.materials = [SimpleMaterial.init(color: .init(red: CGFloat(min(smileLVal, smileRVal)) + 0.24, green: 0.0, blue: 0.0, alpha: 1), isMetallic: true)]
             rimRModel.model?.materials = [SimpleMaterial.init(color: .init(red: CGFloat(min(smileLVal, smileRVal)) + 0.25, green: 0.0, blue: 0.0, alpha: 1), isMetallic: true)]
             middleModel.model?.materials = [SimpleMaterial.init(color: .init(red: CGFloat(min(smileLVal, smileRVal)) + 0.25, green: 0.0, blue: 0.0, alpha: 1), isMetallic: true)]
 
