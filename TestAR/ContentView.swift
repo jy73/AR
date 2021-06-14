@@ -54,6 +54,18 @@ struct ContentView : View {
                 }
                 
                 Spacer()
+                
+                Button(action: {
+                    self.filterNumber = 2
+                }) {
+                    Text("Glasses")
+                        .padding()
+                        .background(Color.gray)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                
+                Spacer()
             }
         }
     }
@@ -99,6 +111,10 @@ struct ARViewContainer: UIViewRepresentable {
             break
         case 1:
             let faceAnchor = try! Experience.loadFilterTwo()
+            uiView.scene.anchors.append(faceAnchor)
+            break
+        case 2:
+            let faceAnchor = try! Experience.loadGlasses()
             uiView.scene.anchors.append(faceAnchor)
             break
         default:

@@ -725,6 +725,187 @@
             }
           ],
           "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "FA2C608D-46E6-4EC3-9062-E34C5A7C3E4D",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "83B5D24B-AD0E-4CCB-BDFF-A9C988A5C3E8" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:32dd1c63f99ad7554cc40c02da111762\/Glasses.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "847F8D87-61B2-4847-B670-1E0AD93922CA"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C54F113D-C06A-41A9-9474-DD1F72916626"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.6640859030303545e-05,
+                        -0.12013225257396698,
+                        -3.6947863009118009e-06,
+                        0,
+                        8.9648674475029111e-06,
+                        3.6661438116425416e-06,
+                        -0.12013223022222519,
+                        0,
+                        0.12013258039951324,
+                        1.6669546312186867e-05,
+                        8.9362520157010294e-06,
+                        0,
+                        -0.047634012997150421,
+                        0.039219498634338379,
+                        0.014408272691071033,
+                        1
+                      ]
+                    }
+                  },
+                  "F278C068-58F6-4040-9BB7-B2A647BA6BDB" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "glasses",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.999245285987854,
+                  -1.4901161193847656e-08,
+                  -0.038842823356389999,
+                  0,
+                  0.0018674397142603993,
+                  0.99884361028671265,
+                  0.048039622604846954,
+                  0,
+                  0.038797874003648758,
+                  -0.048075933009386063,
+                  0.99808984994888306,
+                  0,
+                  0.0089715719223022461,
+                  0.037830978631973267,
+                  0.79422694444656372,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
         }
       ],
       "tags" : {
